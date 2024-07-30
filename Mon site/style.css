@@ -1,0 +1,87 @@
+h1{
+	color: #ffffff;
+	text-decoration: underline;
+	font-family: 'Playfair Display', serif;
+}
+
+h2{
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+}
+
+nav {
+	border: 1px solid #ff0080;
+	padding: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+nav ul li{
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+}
+
+a:link{
+	color: #ff0080;
+}
+
+a:visited{
+	color: #ff0080;
+}
+
+body{
+	background-color:#000000;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+ul li::before{
+	content: '*';
+	color: #ffd700;
+	margin-right: 5px;
+}
+
+li{
+	font-family: 'Lato', sans-serif;
+}
+#header-image{
+	background-image: url('Images/blackpinkwhite.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px; /* Height of the banner */
+	width: 100%; /* Width of the banner */
+	position: static; /* Keep the banner at the top of the page */
+	top: 0;
+	left: 0;
+	z-index: 100; /* Keep the banner behind the content */
+}
+
+
+#header-image h1{
+	text-align: center;
+}
+
+#Membres img {
+	width: 130px;
+	height: 150px;
+	border-radius: 50%;
+}
